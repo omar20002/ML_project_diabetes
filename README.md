@@ -8,6 +8,8 @@ This project involves creating an ensemble of three models, each trained on a di
    - Run `ensemble.ipynb`. This notebook handles all preprocessing for both training and testing, loads the models, and produces the final result.
 2. **Quick Prediction**: 
    - Run `quick_ensemble.ipynb`. This notebook reads the cleaned data directly and produces the final result.
+   - (since the cleaned dataset was not uploaded don't use this)
+   - contact me to obtain the cleaned version
 
 **Note**: The preprocessing phase fills null values using a CatBoost regressor, which may take some time on an average machine.
 
