@@ -11,28 +11,6 @@ This project involves creating an ensemble of three models, each trained on a di
 
 **Note**: The preprocessing phase fills null values using a CatBoost regressor, which may take some time on an average machine.
 
-## Folder Structure
-The project follows the structure below:
-
-
-
-├── notebooks
-│   ├── model#1_Notebook.ipynb
-│   ├── model#2_Notebook.ipynb
-│
-├── saved_models
-│   ├── model#1
-│   ├── model#2
-│
-├── ensemble.ipynb
-├── quick_ensemble.ipynb
-├── submission_results
-│   ├── final_submission.csv
-│   ├── Sample_Submission.csv
-│
-└── cleaned_data
-    └── cleaned_df.csv
-
 
 ## Key Files
 - **notebooks**: Contains the Jupyter notebooks for individual models.
